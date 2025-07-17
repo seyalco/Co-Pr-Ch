@@ -1,0 +1,135 @@
+%بسم الله الرحمن الرحیم
+
+\starttext
+
+title: universal Context-lmtx checklist
+%author:
+
+Preface:
+This is universal Context-lmtx checklist for creating any template with context from scratch.
+within following this higherarchy you can make a context template without messing up things and it improves your functionality and effectiveness so much
+By following this you earn some important benefits:
+1. simply divide your projects between the team
+2. refrence ditionary for differnt functional tools of context
+3. overview to your work
+4. ability to make progression bar
+5. quick overview of what you learned from context
+6. good refrence for teaching context essentials to new learners
+7. review general notes and tips under each step(such as using AI)
+
+So let's start it!
+\page
+
+\startsection[title:Overview of a book]
+in this section we list the main component parts of a book and in nexts sections we describe each of them
+So here is the list:
+20 Main Sections for Your ConTeXt LMTX Book
+
+conetxt installation and hints
+🧱 Page & Layout Setup
+📖 Structure & Navigation
+🔤 Content & Styling
+🛠 Technical Tweaks
+🎨 Color, Backgrounds & Themes
+font handling and features
+emojies and icons set 
+🖋 Typography & Fonts
+📐 Grids & Column Systems
+🧩 Reusable Components & Environments
+🗃 Data Handling & External Content
+📚 Lists, Tables, and Structured Elements
+✍️ Custom Commands & Macros
+🎛 Control Sequences & Logical Flow
+🧾 Table of Contents, Indexes, and References
+📎 Footnotes, Endnotes, and Side Notes
+🖼 Figures, Captions, and Float Management
+📦 Modules, Project Structure & File Organization
+🔗 Hyperlinks, Interactivity & PDF Features
+🌍 Language, Hyphenation & Localization
+🧪 Debugging, Testing & Output Inspection
+🚀 Performance Optimization & Best Practices
+🏗 Layering and Overlays
+🧾 Document Metadata and PDF Configuration
+🧮 Math Typesetting and Equations
+📊 Charts, Diagrams & Visual Elements
+🧠 Semantic Markup & Logical Structuring
+🛎 Automatic Numbering & Counters
+🖍 Highlighting, Notes & Alerts
+🎞 Page Transitions & Presentation Layouts
+🧱 Title Pages, Front Matter & Back Matter
+🪄 Custom Templates for Specific Document Types
+🧬 Using XML/JSON as Input Data Sources
+🧭 Cross-Referencing Across Files & Modules
+🧰 ConTeXt Tools, CLI Commands & Scripts
+🖇 Integration with External Tools (Makefiles, Git, etc.)
+📂 Project Management & Directory Conventions
+🧏 Accessibility and Screen Reader Support
+🌐 Multilingual Projects and RTL/LTR Mixing
+🧼 Code Readability, Cleanliness & Style Guides
+💡 Common Pitfalls and How to Avoid Them
+📈 Scalability for Large Documents or Teams🏗 Layering and Overlays
+🧾 Document Metadata and PDF Configuration
+🧮 Math Typesetting and Equations
+📊 Charts, Diagrams & Visual Elements
+🧠 Semantic Markup & Logical Structuring
+🛎 Automatic Numbering & Counters
+🖍 Highlighting, Notes & Alerts
+🎞 Page Transitions & Presentation Layouts
+🧱 Title Pages, Front Matter & Back Matter
+🪄 Custom Templates for Specific Document Types
+🧬 Using XML/JSON as Input Data Sources
+🧭 Cross-Referencing Across Files & Modules
+🧰 ConTeXt Tools, CLI Commands & Scripts
+🖇 Integration with External Tools (Makefiles, Git, etc.)
+📂 Project Management & Directory Conventions
+🧏 Accessibility and Screen Reader Support
+🌐 Multilingual Projects and RTL/LTR Mixing
+🧼 Code Readability, Clean🧠 Conditional Content & Mode Switching
+ Use \startmode / \enablemode for multi-version templates (e.g., print vs. screen).
+🧰 Job Files, Environments & Context Interfaces
+ Understanding *.ctx, *.env, and using context CLI efficiently.
+🏷 Tagging, Structure PDF, and Semantics for Archiving (PDF/A)
+ Improve accessibility, future-proofing, and archiving compatibility.
+📱 Screen vs. Print Templates: Dual Strategy Design
+ Tuning output for device responsiveness vs. print typography.
+🧵 Flow Control with Setups, Start/Stop Blocks, and Logic Layers
+ Design logic-based content structure using setups and layered design logic.
+🕸 Embedding and Styling External HTML/CSS/JS Snippets
+ Techniques for integrating web-native elements where needed.
+🛠 Custom Build Pipelines & Export Automation
+ Create Makefile, batch, or shell-scripted builds for production.
+🔍 Proofing Tools: Visual Debugging, Grid Overlays, Box Inspection
+ Use \showframe, \showgrid, \showboxes for diagnostics.
+🎯 Targeted Outputs: Posters, Slides, Cards, EPUBs
+ Using ConTeXt for more than books — multi-format publishing.
+📦 Packaging Templates for Distribution or Reuse
+ How to turn your ConTeXt setup into a clean, shareable toolkit or product.liness & Style Guides
+💡 Common Pitfalls and How to Avoid Them
+📈 Scalability for Large Documents or Teams
+\stopsection
+
+\startsection[title:🧱 Page & Layout Setup]
+1. Define Paper Size and Orientation
+Use a small portrait size like paperheight=180mm, paperwidth=110mm for mobile-friendly design.
+
+2. Set Margins and Text Width
+Use narrow margins and wider text area for better readability on small screens.
+
+3. Define Background Color or Image
+Use \setupbackgrounds[page][background=...] to apply a background color or image.
+
+4. Setup Fonts and Sizes
+Choose a legible sans-serif font (\setupbodyfont[modern,11pt]) optimized for screens.
+
+5. Configure Line Spacing (Leading)
+Use \setupinterlinespace[line=...pt] for readable line spacing.
+
+\stopsection
+
+\startsection[title: Blocks]
+1. Defining Verbatim Text
+2. 
+\stopsection
+
+
+\stoptext

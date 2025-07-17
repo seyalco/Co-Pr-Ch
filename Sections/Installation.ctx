@@ -1,0 +1,27 @@
+ConTeXt Installation Process
+
+On linux:
+If you stuck in downloading process maube using a proxy would dissolve the issue:
+the steps to using a proxy before a command:
+Install ProxyChains:
+
+sudo apt-get install proxychains
+
+Edit the conf file to use your proxy:
+
+sudo vi /etc/proxychains.conf
+
+Check the last line and edit it. Then just run:
+
+proxychains ssh/curl/wget 
+
+or whatever command you want to go through the proxy.
+
+in our case we should use this:
+proxychains ./install.sh
+
+and when you downloaded the complete installation you can simply transfer it to other linux systems by just copying that file and add the adress of it in .bashrc file such as:
+export PATH=$HOME/context/tex/texmf-linux-64/bin:$PATH
+as you can see in folder that we specifyed there is a file witch name is context and is executable.
+for using fonts also you should add this to .bashrc:
+export OSFONTDIR=$HOME/.fonts

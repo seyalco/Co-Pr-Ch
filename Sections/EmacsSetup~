@@ -1,0 +1,13 @@
+Emacs Setup and Hints:
+This is the file that describe the steps to setup our editor for using within context
+why we use emacs?
+because it's so flexible and light. you can setup your favorites and has lot of intersting features
+also you can use any editor you want but my suggestion is emacs.
+
+Setuping emacs:
+
+1. add compile and run
+2. auto close parenthesis
+3. auto start stop creation
+4. save the windows of emacs you have worked on like a project window
+5. define keybindings for switching windows

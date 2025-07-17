@@ -1,0 +1,25 @@
+Emacs Setup and Hints:
+This is the file that describe the steps to setup our editor for using within context
+why we use emacs?
+because it's so flexible and light. you can setup your favorites and has lot of intersting features
+also you can use any editor you want but my suggestion is emacs.
+
+Setuping emacs essentials for using context:
+
+1. add compile and run
+2. auto close parenthesis
+3. auto start stop creation
+4. save the windows of emacs you have worked on like a project window
+5. define keybindings for switching windows
+6. use theme
+7. create a folder and files
+8. transfer between files
+9. search in documents and buffer
+10. buffer switching
+11. switching between different programs
+12. reload list of files
+13. rename folder and files
+14. save windows of current project
+15. setup and using git
+16. define auto save desktop session
+17. define keybinding for restore the saved session from folder
